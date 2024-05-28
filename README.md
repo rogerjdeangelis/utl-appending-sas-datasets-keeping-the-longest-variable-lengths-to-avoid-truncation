@@ -11,6 +11,17 @@ Appending sas datasets keeping the longest variable lengths regardless of the or
 
     https://communities.sas.com/t5/user/viewprofilepage/user-id/12447
 
+    Usefull Comment
+
+    I must quibble with appending” in the title.
+    I might use “union” as a verb.  One uses PROC APPEND to avoid reading and writing
+    one of the two datasets to be combined.  If setting two disk datasets also truncated
+   a longer value in the second dataset, this use of
+   append” would bother me less.  I was expecting real magic here!
+
+   Berryhill, Timothy
+   <000008c2afdd9bfa-dmarc-request@listserv.uga.edu>
+
 
     /**************************************************************************************************************************/
     /*                                   |                               |                                                    */
